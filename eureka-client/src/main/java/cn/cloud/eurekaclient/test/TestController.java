@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("test")
 public class TestController {
-	
+
 	@GetMapping("test")
 	public JSONObject getNewCode() {
 		return new JSONObject();
