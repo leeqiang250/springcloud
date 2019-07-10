@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="service-client" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="parentpom" target="1.8" />
+      <module name="service-client" target="1.8" />
       <module name="service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>

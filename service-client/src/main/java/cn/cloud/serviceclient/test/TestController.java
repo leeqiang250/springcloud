@@ -1,4 +1,4 @@
-package cn.cloud.eurekaclient.test;
+package cn.cloud.serviceclient.test;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.bind.annotation.GetMapping;
