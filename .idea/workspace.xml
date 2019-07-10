@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8b30da4-76b4-4454-981a-6dc81ffb0893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-client/service-client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/eureka-client.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/cn/cloud/eurekaclient/EurekaClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/cn/cloud/eurekaclient/test/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/test/java/cn/cloud/eurekaclient/EurekaClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-ribbon/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-ribbon/mvnw.cmd" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,9 +35,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
+          <entry key="cmd" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="iml" value="2" />
           <entry key="java" value="16" />
+          <entry key="mvnw" value="2" />
           <entry key="xml" value="11" />
           <entry key="yml" value="5" />
         </counts>
@@ -55,7 +49,7 @@
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="16" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="11" />
           <entry key="YAML" value="5" />
         </counts>
@@ -213,6 +207,11 @@
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="service-client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parentpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -227,7 +226,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562747434970" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562747661585" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,17 +291,18 @@
       <workItem from="1562672229216" duration="1191000" />
       <workItem from="1562742468942" duration="1701000" />
       <workItem from="1562744262845" duration="1846000" />
-      <workItem from="1562746930410" duration="502000" />
+      <workItem from="1562746930410" duration="726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5240000" />
+    <option name="totallyTimeSpent" value="5464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -313,7 +313,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.47664234" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47664234" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -438,6 +438,17 @@
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-client/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-client/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/mvnw">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-client/src/main/java/cn/cloud/serviceclient/ServiceClientApplication.java">
